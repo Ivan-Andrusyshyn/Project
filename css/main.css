@@ -428,7 +428,7 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .soc-mob__contacts_item:not(:last-child) {
-  margin-bottom: 32px;
+  margin-bottom: 22px;
 }
 
 .menu-mob__number {
@@ -436,7 +436,6 @@ textarea:focus::-webkit-input-placeholder {
   font-weight: 500;
   line-height: 1.1470588235;
   color: var(--color-blue);
-  margin-bottom: 32px;
 }
 
 .menu-mob__mail {
@@ -544,6 +543,75 @@ textarea:focus::-webkit-input-placeholder {
     height: 50px;
     padding: 10px 32px;
   }
+}
+
+.social {
+  display: flex;
+}
+
+.social__item {
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+
+.Viber_div {
+  font-size: 32px;
+  font-weight: 700;
+  color: green;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.div_after::after {
+  content: "";
+  display: block;
+  width: 3px;
+  background-color: rgba(0, 0, 0, 0.502);
+  height: 30px;
+}
+
+.soc_svg_arrow {
+  fill: green;
+}
+
+.social__item_link {
+  width: 44px;
+  height: 44px;
+  background-color: green;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition-duration: 250ms;
+  transition-delay: 0;
+  transition-property: background-color;
+  transition-timing-function: var(--transition-cubic);
+}
+.social__item_link:hover, .social__item_link:focus {
+  background-color: #2196F3;
+}
+
+.social-link_svg {
+  fill: #ffffff;
+  transition-duration: 250ms;
+  transition-delay: 0;
+  transition-property: fill;
+  transition-timing-function: var(--transition-cubic);
+}
+.social__item_link:hover .social-link_svg {
+  fill: #ffffff;
+}
+.social__item_link:focus .social-link_svg {
+  fill: #ffffff;
+}
+.social-link_svg:hover, .social-link_svg:focus {
+  width: 20px;
+  height: 20px;
+  fill: #ffffff;
 }
 
 .header {

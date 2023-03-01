@@ -1,24 +1,37 @@
 .social {
-    gap: 10px;
     display: flex;
-    justify-content: center;
-
+ 
 }
 
 .social__item {
-    width: 44px;
-    height: 44px;
-    background-color: #ffffff;
+    gap: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
-
+    justify-content: left;
 }
-
+.Viber_div{
+    font-size: 32px;
+    font-weight: 700;
+    color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.div_after::after{
+content: '';
+display: block;
+width: 3px;
+background-color: rgba(0, 0, 0, 0.502);
+height: 30px;
+}
+.soc_svg_arrow{
+    fill: green;
+}
 .social__item_link {
-    width: 100%;
-    height: 100%;
-    background-color: #ffffff;
+    width: 44px;
+    height: 44px;
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -29,12 +42,12 @@
     transition-timing-function: var(--transition-cubic);
     &:hover,
     &:focus {
-            background-color: #2196F3;
+    background-color: #2196F3;
         }
 }
 
 .social-link_svg {
-    fill: #AFB1B8;
+    fill: #ffffff;
     transition-duration: 250ms;
     transition-delay: 0;
     transition-property: fill;
