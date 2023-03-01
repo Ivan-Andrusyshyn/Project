@@ -1,0 +1,13 @@
+@import './bases/resets';
+@import './utils/mixins.scss';
+@import './utils/variables';
+@import './bases/body';
+
+
+@import './components/modal';
+@import './components/header-mob';
+@import './components/filters';
+@import './components/hero-btn';
+
+@import './layouts/header';
+@import './layouts/hero';

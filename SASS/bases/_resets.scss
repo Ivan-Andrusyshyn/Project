@@ -1,0 +1,50 @@
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul {
+    margin: 0;
+}
+
+.container {
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    @media screen and (min-width: 480px){
+        max-width: 480px;
+    }
+    @media screen and (min-width: 768px){
+    max-width: 768px;
+    }
+    @media  screen and (min-width:1200px) {
+    max-width: 1200px;
+    }
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+a:focus {
+    outline: none;
+}
+
+button:focus {
+    outline: none;
+}
+button {
+    cursor: pointer;
+}

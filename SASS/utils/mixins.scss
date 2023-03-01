@@ -1,0 +1,17 @@
+@mixin tablet {
+    @media screen and (min-width:768px) {
+        @content;
+    }
+}
+@mixin desktop {
+@media screen and (min-width:1200px) {
+        @content;
+    }
+}
+@mixin bg-x2 {
+    @media (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx){
+            @content;
+        } 
+}

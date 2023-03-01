@@ -1,0 +1,161 @@
+.header {
+display: none;
+    padding: 18px 0;
+@include tablet {
+    padding: 21px 0;
+    display: flex;  
+} 
+@include desktop {
+    padding: 24px 0;
+}
+}
+
+.header_container {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+@include tablet {
+display: flex;
+align-items: center;
+}
+}
+
+.header__nav {
+    margin-right: 96px;
+    display: flex;
+    align-items: center;
+
+@include desktop{
+    margin-right: 290px;
+}
+}
+
+.logo_nav {
+    margin-right: 93px;
+}
+
+.logo,
+.logo-footer {
+    letter-spacing: 0.03em;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    color: var(--color-black);
+}
+
+.logo_blue {
+    color: green;
+}
+
+.footer {
+    color: #ffffff;
+}
+
+.menu {
+    display: flex;
+    gap: 50px;
+}
+
+.menu__item_link {
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(16/14);
+    color: var(--color-black);
+    transition-duration: 250ms;
+    transition-delay: 0;
+    transition-property: color;
+    transition-timing-function: var(--transition-cubic);
+    &::after {
+        content: "";
+        display: block;
+        background-color: var(--color-blue);
+        height: 4px;
+        width: 100%;
+        position: absolute;
+        bottom: -32px;
+        border-radius: 2px;
+        opacity: 0;
+    }
+}
+.menu__item {
+    position: relative;
+}
+
+.cursor:hover,
+.cursor:focus {
+    color: var(--color-blue);
+}
+
+.current::after {
+    opacity: 1;
+}
+
+.header-item {
+    fill: currentColor;
+}
+
+.mail {
+    width: 16px;
+    height: 12px
+}
+
+.phone {
+    width: 10px;
+    height: 16px
+} 
+.current {
+    color: var(--color-blue);
+}
+
+.contacts {
+    flex-direction: column;
+        gap: 0;
+        align-items: center;
+    color: var(--color-gray);
+
+@include desktop{
+    flex-direction:inherit;
+    display: flex;
+align-items: center;
+gap: 50px;
+}
+}
+.contacts__mail {
+@include tablet {
+    margin-bottom: 10px;
+}
+@include desktop {
+    margin-bottom: 0;
+}
+}
+.contacts__phone {
+margin-right: 55px;
+@include desktop{
+    margin-right: 0;
+}
+}
+
+.contacts__link_phone,
+.contacts__link_mail {
+    font-size: 12px;
+        font-weight: 500;
+        line-height: calc(14/12);
+    line-height: calc(16/14);
+    text-decoration: none;
+    color: var(--color-gray);
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    transition-duration: 250ms;
+    transition-delay: 0;
+    transition-property: color;
+    transition-timing-function: var(--transition-cubic);
+@include desktop {
+    font-size: 14px;
+        font-weight: 500;
+        line-height: calc(16/14);
+}
+}
