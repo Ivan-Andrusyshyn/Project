@@ -733,9 +733,8 @@ textarea:focus::-webkit-input-placeholder {
 
 .hero {
   color: var(--color-white);
-  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/gaden1.jpg);
-  padding-top: 150px;
-  padding-bottom: 100px;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../../images/after/1.jpg);
+  padding: 118px 0;
   justify-content: center;
   display: flex;
   max-width: 100%;
@@ -782,5 +781,91 @@ textarea:focus::-webkit-input-placeholder {
   .hero-title {
     font-size: 44px;
     line-height: 1.3636363636;
+  }
+}
+
+.title_hidden {
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
+  -webkit-clip-path: inset(50%);
+          clip-path: inset(50%);
+  margin: -1px;
+}
+
+.benefits {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: 0 auto;
+  justify-content: center;
+}
+@media screen and (min-width: 1200px) {
+  .benefits {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+}
+
+.benefits__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+@media screen and (min-width: 768px) {
+  .benefits__list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits__list {
+    display: flex;
+  }
+}
+
+.benefits__item {
+  width: 100%;
+}
+
+.benefit__icon {
+  fill: green;
+}
+@media screen and (min-width: 768px) {
+  .benefit__icon {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+  }
+}
+
+.benefits__title {
+  margin-bottom: 10px;
+  font-size: 24px;
+  line-height: 1.1428571429;
+  width: 100%;
+  text-align: center;
+}
+
+.benefits__subtitle {
+  width: 100%;
+  font-size: 16px;
+  color: var(--color-gray);
+  line-height: 1.71;
+  text-align: center;
+}
+@media screen and (min-width: 480px) {
+  .benefits__subtitle {
+    text-align: left;
+  }
+}
+@media screen and (min-width: 768px) {
+  .benefits__subtitle {
+    text-align: left;
   }
 }/*# sourceMappingURL=main.css.map */
