@@ -612,6 +612,10 @@ textarea:focus::-webkit-input-placeholder {
   gap: 50px;
 }
 
+.home_svg {
+  fill: green;
+}
+
 .menu__item_link {
   letter-spacing: 0.02em;
   font-size: 14px;
@@ -750,14 +754,14 @@ textarea:focus::-webkit-input-placeholder {
   .hero {
     max-width: 1200px;
     padding: 204px 0;
-    background-image: url(../../images/gadenTabl.jpg);
+    background-image: url(../images/gadenTabl.jpg);
   }
 }
 @media screen and (min-width: 1200px) {
   .hero {
     padding-top: 100px;
     padding-bottom: 300px;
-    background-image: url(../../images/gadenTabl.jpg);
+    background-image: url(../images/gadenTabl.jpg);
   }
 }
 

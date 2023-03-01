@@ -56,7 +56,9 @@ align-items: center;
     display: flex;
     gap: 50px;
 }
-
+.home_svg{
+    fill: green;
+}
 .menu__item_link {
     letter-spacing: 0.02em;
     font-size: 14px;
