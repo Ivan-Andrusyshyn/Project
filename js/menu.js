@@ -22,7 +22,9 @@
   refs.menuList.addEventListener('click', removeMenu);
 
   function getFirstLink(){
+  refs.firstLink.classList.add('current')
   refs.secondLink.classList.remove('current')
+
   }
   function getSecondLink(){
     refs.secondLink.classList.add('current')
