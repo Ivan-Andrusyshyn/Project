@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Studio</title>
+  <title>Green Decor</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -49,8 +49,8 @@
 <button class="btn-menu-open"data-menu-open>
   <svg class="svg-header-open" width="40px" height="40px"><use href="./images/icons.svg#icon-menu"></use></svg></button>
       </div>
-      <div class="menu-mob is-hidden"data-menu>
-       
+      <div class="menu-mob is-hidden menu-mobile__menu"data-menu>
+        
         <div class=" container__menu">
           <button class="btn-mob_menu"data-menu-close><svg class="btn-mob__close_svg" width="20px" height="20px">
               <use href="./images/icons.svg#icon-X"></use>
@@ -59,9 +59,9 @@
           <li class="menu-mon__list_item">
             <a href="./index.html" class="header-mob__link cursor current">Головна</a></li>
           <li class="menu-mon__list_item cursor">
-            <a href="#" class="header-mob__link cursor">Спектр послуг</a></li>
+            <a href="#" class="header-mob__link cursor" >Спектр послуг</a></li>
           <li class="menu-mon__list_item cursor">
-            <a href="#" class="header-mob__link cursor">Мої роботи</a></li>
+            <a href="#" class="header-mob__link cursor"data-menu-portfolio>Мої роботи</a></li>
         </ul> 
         
       <div class="soc-mob">
@@ -92,57 +92,102 @@
     </div>
      
     <main>
-      <section class="hero">
-        <div class="container"> 
-        <h1 class="hero-title">Ефективні рішення для <br> вашого саду</h1>
-        <a href="tel:+380965241738" class="hero-title__hero-btn"> Замовити послугу</a>
-      </div>
-      </section>
-      <section class="benefits">
-        <div class="container">
-        <h2 class="title_hidden">Переваги</h2>
-        <ul class="benefits__list">
-          <li class="benefits__item">
+      <div class="main_block">
+        <section class="hero">
+          <div class="container"> 
+          <h1 class="hero-title">Ефективні рішення для <br> вашого саду</h1>
+          <a href="tel:+380965241738" class="hero-title__hero-btn"> Замовити послугу</a>
+        </div>
+        </section>
+        <section class="benefits">
+          <div class="container">
+          <h2 class="title_hidden">Переваги</h2>
+          <ul class="benefits__list">
+            <li class="benefits__item">
+              <div class="benefit__icon ">
+                <svg class="btn-mob__close_svg" width="40px" height="40px">
+                <use href="./images/icons.svg#icon-leaf"></use>
+              </svg></div>
+                <h3 class="benefits__title">Трохи теорії </h3>
+                <p class="benefits__subtitle"> 
+                  Ландшафтний дизайн - майстерність, що поєднує в собі різноспрямовану тріаду:
+                   технічний (архітектура, споруда, проектування) та рослинницькі аспекти, а також інформацію філософського та історичного характеру.
+                </p>
+              </li>
+            <li class="benefits__item">
             <div class="benefit__icon ">
-              <svg class="btn-mob__close_svg" width="40px" height="40px">
-              <use href="./images/icons.svg#icon-leaf"></use>
-            </svg></div>
-              <h3 class="benefits__title">Трохи теорії </h3>
-              <p class="benefits__subtitle"> 
-                Ландшафтний дизайн - майстерність, що поєднує в собі різноспрямовану тріаду:
-                 технічний (архітектура, споруда, проектування) та рослинницькі аспекти, а також інформацію філософського та історичного характеру.
-              </p>
-            </li>
-          <li class="benefits__item">
-          <div class="benefit__icon ">
-            <svg class="btn-mob__close_svg" width="40px" height="40px">
-            <use href="./images/icons.svg#icon-user-check"></use>
-          </svg></div>
-            <h3 class="benefits__title">Переваги </h3>
-            <p class="benefits__subtitle">
-             
-               Зазвичай заміський
-               будинок має на увазі місце для відпочинку, проведення дозвілля,
-                а недоглянута ділянка псує настрій. Облаштована місцевість дозволяє насолодитися відпочинком з друзями після важкого робочого дня, провести свята.
-            </p>
-          </li>
-          <li class="benefits__item">
-            <div class="benefit__icon benefit__icon_diagram">
               <svg class="btn-mob__close_svg" width="40px" height="40px">
               <use href="./images/icons.svg#icon-user-check"></use>
             </svg></div>
-            <h3 class="benefits__title">Майстерність</h3>
-            <p class="benefits__subtitle">
-          
-              Я допоможу змінити ділянку так, щоб ви могли насолодитися виглядом, 
-              відчувати лише позитивні почуття, сидячи з коханою людиною на терасі, 
-               оточені зеленню та соковитим газоном. 
-              Підходячи з практичного боку,
-               я створю ландшафт так, щоб він був чудовим та функціональним.
-            </p>
-          </li>
-        </ul>
-        </div>
+              <h3 class="benefits__title">Переваги </h3>
+              <p class="benefits__subtitle">
+               
+                 Зазвичай заміський
+                 будинок має на увазі місце для відпочинку, проведення дозвілля,
+                  а недоглянута ділянка псує настрій. Облаштована місцевість дозволяє насолодитися відпочинком з друзями після важкого робочого дня, провести свята.
+              </p>
+            </li>
+            <li class="benefits__item">
+              <div class="benefit__icon benefit__icon_diagram">
+                <svg class="btn-mob__close_svg" width="40px" height="40px">
+                <use href="./images/icons.svg#icon-user-check"></use>
+              </svg></div>
+              <h3 class="benefits__title">Майстерність</h3>
+              <p class="benefits__subtitle">
+            
+                Я допоможу змінити ділянку так, щоб ви могли насолодитися виглядом, 
+                відчувати лише позитивні почуття, сидячи з коханою людиною на терасі, 
+                 оточені зеленню та соковитим газоном. 
+                Підходячи з практичного боку,
+                 я створю ландшафт так, щоб він був чудовим та функціональним.
+              </p>
+            </li>
+          </ul>
+          </div>
+        </section>
+
+      </div>
+      
+
+
+
+      <section class="portfolio">
+          <div class="container portfolio_flex">
+            <div class="img_container">
+              <div class="port_title_div">
+               <h2 class="portfolio_title_h2">Портфоліо</h2>
+              <svg class="btn-mob__close_svg" width="40px" height="40px">
+                <use href="./images/icons.svg#icon-leaf"></use>
+              </svg> 
+              </div>
+              
+              <h3 class="portfolio_title_h3">Початок роботи</h3>
+              <img src="./images/Before/1.jpg" alt="">
+              <h3 class="portfolio_title_h3">Завершення</h3>
+              <img src="./images/after/1.jpg" alt="">
+            </div>
+            <div class="img_container">
+              <h3 class="portfolio_title_h3">Початок роботи</h3>
+              <img src="./images/Before/11.jpg" alt="">
+              <h3 class="portfolio_title_h3">Завершення</h3>
+              <img src="./images/after/11.jpg" alt="">
+            </div>
+            <div class="img_container">
+              <h3 class="portfolio_title_h3">Початок роботи</h3>
+              <img src="./images/Before/2.jpg" alt="">
+              <h3 class="portfolio_title_h3">Завершення</h3>
+              <img src="./images/after/2.jpg" alt="">
+            </div>
+            <div class="img_container">
+              <h3 class="portfolio_title_h3">Початок роботи</h3>
+              <img src="./images/Before/3.jpg" alt="">
+              <h3 class="portfolio_title_h3">Завершення</h3>
+              <img src="./images/after/3.jpg" alt="">
+
+            </div>
+
+
+          </div>
       </section>
       <!-- <section class="task">
         <div class="container">

@@ -1,0 +1,42 @@
+.portfolio{
+    display: none;
+}
+.portfolio_open{
+    display: block;
+}
+.main_block_hidden{
+    display: none;
+}
+.portfolio_flex{
+
+}
+.port_title_div{
+    display: flex;
+    fill: green;
+    gap: 30px;
+    justify-content: center;
+    position: relative;
+}
+.port_title_div::after{
+content: "";
+display: block;
+background-color: #E7E9FC;
+height: 1px;
+width:100%;  
+bottom: 0;
+position: absolute;
+box-shadow:  0px 2px 1px rgba(46, 47, 66, 0.08),
+ 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+.portfolio_title_h2{
+    font-size: 34px;
+    margin-bottom: 40px; 
+    color: green;
+    margin-left: 30px;
+}
+.portfolio_title_h3{
+    font-size: 28px;
+    text-align: center;
+    margin: 20px;
+    color: green;
+}
