@@ -78,6 +78,7 @@ body {
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.03em;
   margin: 0 auto;
+  scroll-behavior: smooth;
 }
 
 .backdrop {
@@ -640,6 +641,10 @@ textarea:focus::-webkit-input-placeholder {
     display: flex;
     align-items: center;
   }
+}
+
+.no-scroll {
+  overflow: hidden;
 }
 
 .header__nav {

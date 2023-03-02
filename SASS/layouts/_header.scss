@@ -19,7 +19,9 @@ display: flex;
 align-items: center;
 }
 }
-
+.no-scroll {
+    overflow: hidden
+}
 .header__nav {
     margin-right: 96px;
     display: flex;

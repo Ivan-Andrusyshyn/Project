@@ -20,7 +20,7 @@
   refs.openMenuBtn.addEventListener('click', toggleMenu);
   refs.closeMenuBtn.addEventListener('click', toggleMenu);
   refs.menuList.addEventListener('click', removeMenu);
-
+ 
   function getFirstLink(){
   refs.firstLink.classList.add('current')
   refs.secondLink.classList.remove('current')
@@ -39,10 +39,13 @@ function getPortfolio(){
   function toggleMenu() {
     refs.menu.classList.toggle('is-hidden');
     refs.body.classList.toggle('no-scroll');
+   
   }
 
   function removeMenu() {
     refs.menu.classList.add('is-hidden');
     refs.body.classList.remove('no-scroll');
   }
+  
+ 
 })();
