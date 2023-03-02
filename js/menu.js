@@ -7,7 +7,9 @@
     portfolio:document.querySelector('[data-menu-portfolio]'),
     menuList: document.querySelector('.menu-mobile__menu'),
     blockPortfolio: document.querySelector('.portfolio'),
-    mainBlock: document.querySelector('.main_block')
+    mainBlock: document.querySelector('.main_block'),
+
+    
   }; 
   refs.portfolio.addEventListener('click', getPortfolio)
   refs.openMenuBtn.addEventListener('click', toggleMenu);

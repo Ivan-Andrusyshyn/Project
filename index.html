@@ -23,7 +23,8 @@
  
         <ul class="menu">
           <li class="menu__item"><a href="#" class="menu__item_link cursor current">Студія</a></li>
-          <li class="menu__item"><a href="" class="menu__item_link cursor">Контакти</a></li>
+          <li class="menu__item"><a href="#portfolio" class="menu__item_link cursor">Портфоліо</a></li>
+
         </ul>
    
       </nav>
@@ -59,17 +60,13 @@
           <li class="menu-mon__list_item">
             <a href="./index.html" class="header-mob__link cursor current">Головна</a></li>
           <li class="menu-mon__list_item cursor">
-            <a href="#" class="header-mob__link cursor" >Спектр послуг</a></li>
+            <a href="#services" class="header-mob__link cursor" >Спектр послуг</a></li>
           <li class="menu-mon__list_item cursor">
             <a href="#" class="header-mob__link cursor"data-menu-portfolio>Мої роботи</a></li>
         </ul> 
         
       <div class="soc-mob">
-        <div class="social">
        
-         
-          
-            </div>
         <ul class="soc-mob__contacts">
           <li class="soc-mob__contacts_item">
           <a href="tel:+380965241738"
@@ -151,16 +148,17 @@
 
 
 
-      <section class="portfolio">
-          <div class="container portfolio_flex">
-            <div class="img_container">
+      <section class="portfolio"id="portfolio">
+          <div class="container ">
+           
               <div class="port_title_div">
                <h2 class="portfolio_title_h2">Портфоліо</h2>
               <svg class="btn-mob__close_svg" width="40px" height="40px">
                 <use href="./images/icons.svg#icon-leaf"></use>
               </svg> 
               </div>
-              
+              <div class="portfolio_flex">
+              <div class="img_container">
               <h3 class="portfolio_title_h3">Початок роботи</h3>
               <img src="./images/Before/1.jpg" alt="">
               <h3 class="portfolio_title_h3">Завершення</h3>
@@ -185,152 +183,89 @@
               <img src="./images/after/3.jpg" alt="">
 
             </div>
+            <div class="img_container">
+              <h3 class="portfolio_title_h3">Початок роботи</h3>
+              <img src="./images/Before/4.jpg" alt="">
+              <h3 class="portfolio_title_h3">Завершення</h3>
+              <img src="./images/after/4.jpg" alt="">
 
+            </div>
+          </div>
 
           </div>
       </section>
-      <!-- <section class="task">
-        <div class="container">
-        <h2 class="title__h2">Чим ми займаємося</h2>
-        <ul class="task__list">
-          <li class="task__item">
-           <div class="task__wrapper">
-              <img
-              srcset="./images/img-task1.jpg 1x, ./images/desk-x2-min.jpg 2x"
-              alt="with phone"
-              width="370"
-              height="294"
-            />
-          
-            <p class="task__uptitle">Десктопні додатки</p>
-           </div>
-          </li>
-          <li class="task__item">
-           <div class="task__wrapper">
-            <img
-              srcset="./images/img-task2.jpg 1x, ./images/mobile-x2-min.jpg 2x"
-              alt="with phone"
-              width="370"
-              height="294"
-            />
-          <p class="task__uptitle">Мобільні додатки</p></div>
-          </li>
-          <li class="task__item">
-            <div class="task__wrapper">
-             
-              <img
-              srcset="./images/img-task3.jpg 1x, ./images/design-x2-min.jpg 2x"
-              alt="with tablet"
-              width="370"
-              height="294"
-            />
-          <p class="task__uptitle">Дизайнерські рішення</p></div>
-          </li>
-        </ul>
+    <section class="services"id="services">
+      <div class="container ">
+        <div class="serv_title_div">
+        <h2 class="services_title">Спектр послуг</h2>
+        <svg class="svg_leaf" width="40px" height="40px">
+          <use href="./images/icons.svg#icon-leaf"></use>
+        </svg>     
         </div>
-      </section>
        
-        <section class="clients">
-          <div class="container">
-            <h2 class="title__h2">Постійні клієнти</h2>
-            <ul class="client-items">
-              <li class="client-item"><a href="" class="client-link"><svg class="client-link-item" width="106px" height="60px">
-                    <use href="./images/icons.svg#icon-Logo"></use>
-                  </svg></a></li>
-              <li class="client-item"><a href="" class="client-link"><svg class="client-link-item" width="106px" height="60px">
-                    <use href="./images/icons.svg#icon-Logo-1"></use>
-                  </svg></a></li>
-              <li class="client-item"><a href="" class="client-link"><svg class="client-link-item" width="106px" height="60px">
-                    <use href="./images/icons.svg#icon-Logo-2"></use>
-                  </svg></a></li>
-              <li class="client-item"><a href="" class="client-link"><svg class="client-link-item" width="106px" height="60px">
-                    <use href="./images/icons.svg#icon-Logo-3"></use>
-                  </svg></a></li>
-              <li class="client-item"><a href="" class="client-link"><svg class="client-link-item" width="106px" height="60px">
-                    <use href="./images/icons.svg#icon-Logo-4"></use>
-                  </svg></a></li>
-              <li class="client-item"><a href="" class="client-link"><svg class="client-link-item" width="106px" height="60px">
-                    <use href="./images/icons.svg#icon-Logo-5"></use>
-                  </svg></a></li>
-            </ul>
+      <ul class="services_list">
+        <li  class="services_item">
+          <p class="services_text">Створення дизайн-проекту</p>
+        </li>
+        <li  class="services_item">
+
+          <p class="services_text">Псадка рослин</p>
+        </li>
+        <li  class="services_item">
+
+          <p class="services_text">Благоустрій території</p>
+        </li>
+        <li  class="services_item">
+
+          <p class="services_text">Благоустрій газонів</p>
+        </li>
+        <li  class="services_item">
+
+          <p class="services_text">Встановлення міксбордерів та квітників</p>
+        </li>
+        <li  class="services_item">
+
+          <p class="services_text">Вертикальне озеленення</p>
+        </li>
+        <li  class="services_item">
+
+          <p class="services_text">Створення штучних водойм, в тому числі
+             озер, фонтанів, струмків, каскадів.</p>
+        </li>
+      </ul>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container ">
+<div class="footer_flex">
+     <div class="logo_footer">
+      <svg class="home_svg" width="40px" height="40px"><use href="./images/icons.svg#icon-home"></use></svg>
+      <a href="/" class="logo logo_nav"><span class="logo_blue">Green Decor</span></a>
+     </div> 
+      <div class="footer_contact">
+        <ul class="soc-footer__contacts">
+          <li class="soc-mob__contacts_item">
+          <a href="tel:+380965241738"
+           class="menu-footer__number ">+380 96 52 41 738</a>
+           <div class="social__item"> 
+            <p class="Viber_div div_after" >Viber</p>
+            <p class="Viber_div">Telegram</p>
+                <svg width="40px" height="40px" class="soc_svg_arrow">
+                  <use href="./images/icons.svg#icon-reply"></use></svg>
           </div>
-        </section>
-        </main>
-        <footer class="footer-contacts">
-          <div class="container footer-wraper">
+          </li>
+          <li class="soc-mob__contacts_item">
+          <a href="mailto:sagirovayana26@gmail.com"
+           class="menu-mob__mail cursor">sagirovayana26@gmail.com</a></li>
+        </ul>
+     
         
-            <div class="address-social__wraper">
-              <div class="address-wrapper">
-                <a href="/" class="logo-footer"><span>Web</span>Studio</a>
-                <address>
-                  <ul class="footer-items">
-                    <li class="footer-item">
-                      <a class="footer-address cursor" href="https://goo.gl/maps/aHwAYJVr8grFMFeF8" target="_blank"
-                        rel="noopener noreferrer">м. Київ, пр-т Лесі Українки, 26</a>
-                    </li>
-                    <li class="footer-item"><a class="footer-mail cursor"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer-item"><a class="footer-phone cursor" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                  </ul>
-                </address>
-              </div>
-              
-            </form>
-          </div>
-        </footer>
-        <div class="backdrop is-hidden" data-modal>
-          <div class="modal">
-            <p class="modal-title">Залиште свої дані, ми вам передзвонимо</p>
-            <form action="">
-              <div class="modal-wraper">
-                <label for="name" class="modal-label">Ім'я</label>
-                <input type="text" name="name" id="name" class="modal-input">
-                <svg width="18px" height="18px" class="modal-svg-input">
-                  <use href="./images/icons.svg#icon-person-black-18dp-1"></use>
-                </svg>
-              </div>
-              <div class="modal-wraper">
-                <label for="phone" class="modal-label">Телефон</label>
-                <input type="tel" name="tel" id="phone" class="modal-input">
-                <svg width="18px" height="18px" class="modal-svg-input">
-                  <use href="./images/icons.svg#icon-phone-black-18dp-1"></use>
-                </svg>
-              </div>
-              <div class="modal-wraper">
-                <label for="email-input" class="modal-label">Пошта</label>
-                <input type="email" name="email" id="email-input" class="modal-input">
-                <svg width="18px" height="18px" class="modal-svg-input">
-                  <use href="./images/icons.svg#icon-email-black-18dp-1"></use>
-                </svg>
-              </div>
-              <div class="textarea-wraper">
-                <label for="user-comments" class="modal-label">Коментар</label>
-                <textarea name="user-comment" id="user-comments" class="modal-textarea" placeholder="Введіть текст "></textarea>
-              </div>
-        
-              <div class="checkbox-wrapper">
-                <input type="checkbox" name="modal-checkbox" id="modal-checkbox" class="checkbox hide">
-                <label for="modal-checkbox" class="modal-checkbox">
-                  <span><svg width="16px" height="15px">
-                      <use href="./images/icons.svg#icon-cheked"></use>
-                    </svg>
-              </span>Погоджуюся з розсилкою та приймаю <a href="#" class="checkbox-link"> Умови договору</a>
-                </label>
-              </div>
-              <button type="submit" class="input-button">Відправити</button>
-            </form>
-           
-            <button class="close-modal" data-modal-close><svg class="close-svg" width="20px" height="20px">
-              <use href="./images/icons.svg#icon-close-block"></use>
-              </svg>
-            </button> 
-          </div>
-        </div>
-        
-        
-         -->
+      </div>
+      </div>
+      </div>
+    </section>
+    </main>
         <script src="./js/menu.js"></script>
-        <script src="./js/modal.js"></script>
         </body>
         
         </html>
