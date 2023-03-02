@@ -1029,7 +1029,6 @@ textarea:focus::-webkit-input-placeholder {
 .services {
   padding-top: 60px;
   padding-bottom: 60px;
-  height: 700px;
 }
 @media screen and (min-width: 768px) {
   .services {
@@ -1059,9 +1058,6 @@ textarea:focus::-webkit-input-placeholder {
   height: 100%;
 }
 
-.services_item {
-  height: 50px;
-}
 @media screen and (min-width: 1200px) {
   .services_item {
     list-style: circle;
@@ -1162,7 +1158,7 @@ textarea:focus::-webkit-input-placeholder {
 }
 
 .menu-footer__number {
-  font-size: 34px;
+  font-size: 30px;
   font-weight: 500;
   line-height: 1.1470588235;
   color: var(--color-blue);
